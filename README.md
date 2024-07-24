@@ -1,10 +1,10 @@
 ![astrology-photo](https://plus.unsplash.com/premium_photo-1720287601300-cf423c3d6760?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y29kZXIlMjBwZXJzb258ZW58MHx8MHx8fDA%3D)
 
-# h1 Writing a Function in JavaScript
+# Writing a Function in JavaScript
 
-In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
+## In JavaScript, functions are blocks of reusable code. They allow you to bundle functionality, make it more readable, and avoid repetition. Here's a brief tutorial on writing an arrow function in JavaScript.
 
-# h2 1. Basic syntax
+### 1. Basic syntax
 
 ```
 const functionName = (params) => {
@@ -26,7 +26,7 @@ const greet = (name) => {
 ```
 > Tip: Functions often perform actions, so naming with a verb can make it clear what the function does. Examples include fetchData( ), calculateArea( ), or printReport( ). 
 
-# h3 2. Calling a function
+### 2. Calling a function
 
 To execute the function, you *call* or *invoke* it by using its name followed by parentheses.
 
@@ -34,7 +34,7 @@ To execute the function, you *call* or *invoke* it by using its name followed by
 
 greet('Alice'); // Outputs: Hello, Alice!
 
-# h4 3. Return values
+### 3. Return values
 
 Functions can process data input and output a value using the *return* keyword.
 
